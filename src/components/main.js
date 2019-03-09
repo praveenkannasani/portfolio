@@ -1,14 +1,21 @@
 import React from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Landing from './landingpage';
+import About from './aboutme';
+import Contact from './contact';
+import Projects from './projects';
+import Resume from './resume';
 
-const Main = () => {
-    return (
-        <HashRouter>
+const Main = () => (
+    
         <Switch>
         <Route exact path="/" component={Landing} />
-            </Switch>
-        </HashRouter>)
-}
+        <Route path="/aboutme" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/resume" component={Resume} />
+        </Switch>
+        
+)
 
 export default Main;
