@@ -1,31 +1,26 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, Textfield } from 'react-mdl';
 
 
 class Landing extends Component {
     render() {
         return (
-            <div style={{ width: '100%', margin:'auto' }}>
+            <div style={{ width: '100%', margin: 'auto' }}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src={require('./Praveen.JPG')} className="praveen-img" />
+                        <img src={require('./Praveen.jpg')} className="praveen-img" />
                         <div className="banner-text">
                             <h1>Praveen Kannasani</h1>
-
-                            <hr />
-
-                            <p>Expertise in .Net With Azure</p>
-
-                            <div className="social-links">
-
-                                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-linkedin-square"  aria-hidden="true" />
+                            <p>Enthusiastic Programmer</p>
+                            {/*<div className="social-links">
+                                <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                                    <i classname="fa fa-linkedin-square"  aria-hidden="true" />
                                 </a>
-
-                            </div>
+                            </div> */ }
                         </div>
                     </Cell>                    
-                </Grid>
+                </Grid>             
+
             </div>
         )
     }
