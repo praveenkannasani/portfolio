@@ -8,19 +8,11 @@
     background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
-    position: fixed; /* You need to remove this if you want to add anything in landingpage grid*/
-    top: 0;
-    left: 0;
+    /* position: absolute;*/  /* You need to remove this if you want to add anything in landingpage grid*/
+   
     width: 100%;
-    height: 100%
+    height: 100vh
 }
-
-.praveen-img {
-    height: 300px;
-    padding-top: 5em;
-  
-}
-
 .banner-text {
     /*background-color:black; */
     opacity: .8;
@@ -29,57 +21,34 @@
     border-radius: 10px;
 }
 
-
 .banner-text h1 {
-    /*color: white;*/
-    font-size: 35px;
-    font-weight: bold;
-}
-
-    .banner-text hr {
-        border-top: 1px dashed;  /*dotted white;*/
-        width: 50%;
-        margin: auto;
-    }
-
-    .banner-text p {
-        font-size: 20px;
-        padding: 1em;
         /*color: white;*/
-    }
-
-    .social-links{
-       display:flex;
-       justify-content: space-between;
-       width:50%;
-    }
-.social-links i{
-    color: white;
-    font-size: 5em;
-    padding: 8px;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'PT Sans', sans-serif
+}
+.banner-text p {
+    font-family: 'PT Sans', sans-serif ;
+    font-size: 20px;
+}
+.praveen-img {
+    height: 50%;
 }
 
-.projects-grid{
-    display:flex;
-}
-
-.contact-body{
-    margin:auto;
-    background: grey;
-    position: fixed;
+.landing-grid2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
     width: 100%;
-    height: 100%;
-    justify-content: center;
-    padding-top: 2em;
+    line-height: 1.3;
 
 }
-.contact-grid{
-    text-align:center;
-    justify-content: center;
-    width: 80%;
-    height:550px;
-    background: white;
-    color: black;
-    border: 2px solid red;
-    margin-bottom: 20px;
-}
+  .social-links{
+      
+     
+    }
+    .social-links i {
+        color: #0077B5;
+        font-size: 2em;
+        padding: 8px;
+    }
+

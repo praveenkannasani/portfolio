@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from 'react-mdl';
 import ReactDOM from 'react-dom';
 import './App.css';
 import Main from './components/main';
@@ -28,7 +28,8 @@ class App extends Component {
                         <div className="page-content" />
                         <Main/>
                 </Content>
-            </Layout>
+                </Layout>
+              
 </div >
 
         );
