@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Textfield } from 'react-mdl';
+import { Grid, Cell, ProgressBar } from 'react-mdl';
 
 
 class Landing extends Component {
@@ -21,13 +21,15 @@ class Landing extends Component {
                     <Cell col={6} align="center">
                         <div>
                       
-                            I'm Praveen Kannasani. I work as Full Stack .Net Developer by profession. My passion for
+                            I'm Praveen Kannasani. I work as Full Stack .Net Developer using Azure. My passion for
                             programming and problem solving made me to choose this field. When not at work I like to cook new food recipes, 
                             play games, watch movies. 
 
+                         
 
-                             <div className="social-links" align="right">
-                                <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <hr/>
+                             <div className="social-links" align="center">
+                                <a href="https://www.linkedin.com/in/praveen-kannasani/" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                                 </a>
                             </div>
